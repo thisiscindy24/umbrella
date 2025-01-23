@@ -1,10 +1,11 @@
 # Write your soltuion here!
 
-require "active_support/all"
-require "awesome_print"
-require "pry-byebug"
+# require "active_support/all"
+# require "awesome_print"
+# require "pry-byebug"
 require "http"
-require "dotenv"
+require "json"
+require "dotenv/load"
 
 # pp "Where are you located?"
 user_location = gets.chomp
